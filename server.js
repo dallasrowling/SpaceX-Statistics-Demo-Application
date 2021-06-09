@@ -17,7 +17,8 @@ app.use(
     })
 );
 
-// For Heroku deployment
+
+// Use only for Heroku deployment
 // Redirects to reacts index page
 /*app.use(express.static('public'));
 app.get('*', (req, res) => {
